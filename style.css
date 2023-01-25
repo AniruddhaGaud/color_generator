@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    color: black;
+    font-size: large;
+}
+
+#btn:hover{
+    opacity: 0.5;
+    color: white;
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
